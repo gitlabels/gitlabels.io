@@ -16,6 +16,7 @@
     <PackageReference Include="Microsoft.AspNetCore.HttpsPolicy" Version="2.1.0-rc1-final" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.0-rc1-final" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.0-rc1-final" />
+    <PackageReference Include="Microsoft.AspNetCore.WebHooks.Receivers.GitHub" Version="1.0.0-preview2-final" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="2.1.0-rc1-final" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.1.0-rc1-final" />
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.0.3" />
