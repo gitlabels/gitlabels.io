@@ -10,6 +10,23 @@
 <body>
 <div>
   Sync your GitHub labels.
+
+
+  <h2>Getting Started</h2>
+  <p>Create file in your git repository named <code>.github/labels.json</code></p>
+  <p>Sample labels definition:</p>
+
+  <pre class="code lang-json">
+[
+  { "name": "bug", "color": "#ee3f46" },
+  { "name": "invalid", "color": "#d2dae1" },
+  { "name": "wontfix", "color": "#d2dae1" },
+  { "name": "duplicate", "color": "#d2dae1" }
+]
+  </pre>
+
+  <p>Commit your change. <strong>gitlabels</strong> will automatically sync your labels in GitHub Issues
+     based on the definition in <strong>labels.json</strong> file.</p>
 </div>
 </body>
 </html>
